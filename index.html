@@ -3,24 +3,36 @@
 
 <head>
     <style>
+        p.ex {
+            width: 960px;
+        }
+        
         nav {
             background-color: beige;
         }
         
         #section1 {
             background-color: bisque;
+            text-align: center;
+            width: 960px;
         }
         
         #section2 {
-            background-color: bisque
+            background-color: bisque;
+            text-align: center;
+            width: 960px;
         }
         
         #section3 {
-            background-color: bisque
+            background-color: bisque;
+            text-align: center;
+            width: 960px;
         }
         
         #section2 {
-            color: brown
+            color: brown;
+            text-align: center;
+            width: 960px;
         }
         
         h1,
@@ -33,36 +45,55 @@
 </head>
 
 <body>
-    <h1>epic title</h1>
-    <p><img src="http://brothert.net/dryoar/images/dryoarlogo.png" alt="Dry Oar boating logo"></p>
-    <nav>
-        <ul>
-            <li>home</li>
-            <li>rivers</li>
-            <li>FAQ</li>
-            <li>blog</li>
-            <li>rates/dates</li>
-            <li>contact us</li>
-        </ul>
-    </nav>
-    <section id="section1">
-        <h2>We Run Rivers to Relax</h2>
-        <p>We believe that there is nothing like a river trip for relaxing. That is why we subscribe to the dry oar philosophy of boating. Keeping your oars dry for us means taking time to look around and notice the beauty that surrounds the rivers we love.</p>
-        <p><img src="http://brothert.net/dryoar/images/river-narrow.jpg" alt="adklj"></p>
-    </section>
-    <section id="section2">
-        <h2>We Run Whitewater For the Rush</h2>
-        <p><img src="http://brothert.net/dryoar/images/littlecolorado.jpg" alt="adklj"></p>
-        <p>That doesn't mean we don't also like rapids. Opposites in all things after all. We believe that that tenseness that comes when you are looking down the tongue of a big string of waves makes you appreciate the calm beautiful water that always follows even more.</p>
-    </section>
-    <section id="section3">
-        <h2>Come Raft and Relax</h2>
-        <p>We invite you to come relax with us on one of the amazing rivers we visit. Check out our trips and let us know which one best suits you. We're waiting to hear from you!</p>
-    </section>
+    <div>
+        <h1>epic title</h1>
+        <p><img src="http://brothert.net/dryoar/images/dryoarlogo.png" alt="Dry Oar boating logo"></p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Rivers</a></li>
+                <li><a href="index.html">FAQ</a></li>
+                <li><a href="index.html">Blog</a></li>
+                <li><a href="index.html">Rates/Dates</a></li>
+                <li><a href="index.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <section id="section1">
+            <div class="leftcol">
+                <h2>We Run Rivers to Relax</h2>
+                <p>We believe that there is nothing like a river trip for relaxing. That is why we subscribe to the dry oar philosophy of boating. Keeping your oars dry for us means taking time to look around and notice the beauty that surrounds the rivers we love.</p>
+            </div>
 
-    <p>
-        <footer>&copy; 2016 Dry Oar || India McFadden</footer>
+            <div class="rightcol">
+                <img src="http://brothert.net/dryoar/images/river-narrow.jpg" alt="adklj">
+            </div>
+        </section>
+        <section id="section2">
+            <div class="leftcol">
+                <h2>We Run Whitewater For the Rush</h2></div>
+            <div class="rightcol">
+                <p><img src="http://brothert.net/dryoar/images/littlecolorado.jpg" alt="adklj"></p>
+            </div>
+            <div class="rightcol">
+                <p>That doesn't mean we don't also like rapids. Opposites in all things after all. We believe that that tenseness that comes when you are looking down the tongue of a big string of waves makes you appreciate the calm beautiful water that always follows even more.</p>
+            </div>
+        </section>
+        <section id="section3">
+            <h2>Come Raft and Relax</h2>
+            <p>We invite you to come relax with us on one of the amazing rivers we visit. Check out our trips and let us know which one best suits you. We're waiting to hear from you!</p>
+        </section>
+
         <p>
+            <footer>
+                <p>&copy; 2016 Dry Oar || India McFadden</p>
+                <p>
+                    <img src="https://byui-cit.github.io/wdd100/images/icons/color/instagram.png" alt="instagram">
+                    <img src="https://byui-cit.github.io/wdd100/images/icons/color/twitter.png" alt="twitter">
+                    <img src="https://byui-cit.github.io/wdd100/images/icons/color/facebook.png" alt="facebook">
+                </p>
+            </footer>
+            <p>
+    </div>
 </body>
 
 </html>
