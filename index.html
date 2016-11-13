@@ -8,6 +8,7 @@
         body {
             font-family: 'Merriweather', serif;
         }
+        
         section {
             padding: 15px
         }
@@ -24,45 +25,70 @@
         nav {
             background-color: beige;
             text-align: left;
-            width: 960px;
         }
         
         #section1 {
             background-color: bisque;
             text-align: left;
-            width: 960px;
             display: flex;
-            flex-flow:
-            justify-content: left ;
-            align-items: ;
+            flex-flow: row wrap;
+            align-items: center;
+        
         }
         
         #section2 {
             background-color: beige;
             text-align: left;
-            width: 960px;
             display: flex;
-            flex-flow:
-            justify-content: right ;
-            align-items: ;
+            flex-flow: row wrap;
+            align-items: center;
+        }
+        
+        .leftcol {
+            width: 48%;
+            text-align: left;
+            flex: 1 0 15em;
+            margin: .5em;
+        
+        }
+        
+        .rightcol {
+            width: 48%;
+            text-align: left;
+            flex: 1 0 15em;
+            margin: .5em;
+        }
+        
+        .center {
+            text-align: center;
         }
         
         #section3 {
             background-color: bisque;
             text-align: left;
-            width: 960px;
             display: flex;
-            flex-flow:
-            justify-content: center ;
-            align-items: ;
+            flex-flow: row wrap; 
+        }
+        
+        .footer1 {
+            display: inline-block;
+            margin: 55px 0px 0px 5px
+            
+            
+        }
+        
+        #footer  {
+            float: right;
+            padding: 0px 0px 0px 555px
         }
         
         h1,
         h2 {
             color: darksalmon;
             font-family: 'Anton', sans-serif;
-            margin-bottom: 5px
+            margin-bottom: 5px   
         }
+                
     </style>
     <title>Dry Oar Boating</title>
 </head>
@@ -93,29 +119,34 @@
         </section>
         <section id="section2">
             <div class="leftcol">
-                <h2>WE RUN WHITEWATER FOR THE RUSH</h2></div>
-            <div class="rightcol">
                 <p><img src="http://brothert.net/dryoar/images/littlecolorado.jpg" alt="adklj"></p>
             </div>
             <div class="rightcol">
+                <h2>WE RUN WHITEWATER FOR THE RUSH</h2>
                 <p>That doesn't mean we don't also like rapids. Opposites in all things after all. We believe that that tenseness that comes when you are looking down the tongue of a big string of waves makes you appreciate the calm beautiful water that always follows even more.</p>
             </div>
         </section>
         <section id="section3">
+            <div class="center">
             <h2>COME RAFT AND RELAX</h2>
             <p>We invite you to come relax with us on one of the amazing rivers we visit. Check out our trips and let us know which one best suits you. We're waiting to hear from you!</p>
+            </div>
         </section>
-
-        <p>
-            <footer>
-                <p>&copy; 2016 Dry Oar || India McFadden</p>
-                <p>
+        
+                
+                <footer>
+                    <div class="footer1">
+                &copy; 2016 Dry Oar || India McFadden
+                        <section id="footer">
                     <img src="https://byui-cit.github.io/wdd100/images/icons/color/instagram.png" alt="instagram">
                     <img src="https://byui-cit.github.io/wdd100/images/icons/color/twitter.png" alt="twitter">
                     <img src="https://byui-cit.github.io/wdd100/images/icons/color/facebook.png" alt="facebook">
-                </p>
-            </footer>
-            <p>
+                    </section>
+                    </div>
+                </footer>
+                
+        
+            
     </div>
 </body>
 
