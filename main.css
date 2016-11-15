@@ -1,0 +1,110 @@
+  @import url('https://fonts.googleapis.com/css?family=Anton|Merriweather|Playfair+Display');
+  body {
+      font-family: 'Merriweather', serif;
+  }
+  
+  section {
+      padding: 15px
+  }
+  
+  p {
+      line-height: 1.5;
+  }
+  
+  a {
+      color: darksalmon;
+      text-decoration: none;
+  }
+  
+  nav {
+      background-color: beige;
+      text-align: left;
+      line-height: 3em;
+      margin-top: -5em;
+  }
+  
+  #logo {
+      background-color: white;
+      position: relative;
+      display: inline-block;
+  }
+  
+  nav a:link,
+  nav a:visited {
+      color: darksalmon;
+      text-decoration: none;
+  }
+  
+  nav a:hover {
+      text-decoration: underline;
+      color: blueviolet;
+  }
+  
+  nav > ul {
+      list-style-type: none;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+  }
+  
+  nav li {
+      flex: 1;
+  }
+  
+  #section1 {
+      background-color: bisque;
+      text-align: left;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+  }
+  
+  #section2 {
+      background-color: beige;
+      text-align: left;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+  }
+  
+  .leftcol {
+      width: 48%;
+      text-align: left;
+      flex: 1 0 15em;
+      margin: .5em;
+  }
+  
+  .rightcol {
+      width: 48%;
+      text-align: left;
+      flex: 1 0 15em;
+      margin: .5em;
+  }
+  
+  .center {
+      text-align: center;
+  }
+  
+  #section3 {
+      background-color: bisque;
+      text-align: left;
+      display: flex;
+      flex-flow: row wrap;
+  }
+  
+  .footer1 {
+      display: inline-block;
+      margin: 55px 0px 0px 5px
+  }
+  
+  #footer {
+      float: right;
+      padding: 0px 0px 0px 555px
+  }
+  
+  h1,
+  h2 {
+      color: darksalmon;
+      font-family: 'Anton', sans-serif;
+      margin-bottom: 5px
+  }
