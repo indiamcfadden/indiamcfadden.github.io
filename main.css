@@ -30,7 +30,6 @@
       border: 1px solid #021a40;
       margin-top: 5px;
       margin-bottom: -50px;
-      
   }
   
   nav a:link,
@@ -38,7 +37,6 @@
       color: darksalmon;
       text-decoration: none;
       padding: 1em .6em;
-      
   }
   
   nav a:hover {
@@ -59,8 +57,8 @@
   nav li {
       flex: 6;
   }
-
-#banner {
+  
+  #banner {
       position: relative;
       align-content: center;
       display: inline-grid;
@@ -123,8 +121,10 @@
   }
   
   h1,
-  h2 {
+  h2
+  {
       color: darksalmon;
       font-family: 'Anton', sans-serif;
       margin-bottom: 5px
   }
+  
